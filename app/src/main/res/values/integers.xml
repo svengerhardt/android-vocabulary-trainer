@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="deck_span_count">1</integer>
+    <integer name="flashcard_max_text_length">80</integer>
+</resources>

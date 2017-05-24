@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp">
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey_5"
+                android:layout_weight="0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginLeft="1dp"
+                android:background="@color/grey_5"
+                android:textStyle="bold"
+                android:text="A"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginLeft="1dp"
+                android:background="@color/grey_5"
+                android:textStyle="bold"
+                android:text="B"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:layout_below="@+id/header"
+            android:layout_above="@+id/footer"/>
+
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:background="#dedede"
+            android:padding="1dp"
+            android:visibility="gone">
+
+            <de.trilobytese.vocab.view.BackAwareEditText
+                android:id="@+id/editText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:background="@drawable/edit_text_rect"
+                android:singleLine="true"
+                android:maxLength="@integer/flashcard_max_text_length"
+                android:inputType="text"
+                android:hint="@string/txt_spreadsheet_enter_text"
+                android:padding="10dp"
+                android:textSize="@dimen/text_medium"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <include layout="@layout/layout_loading" />
+
+</FrameLayout>

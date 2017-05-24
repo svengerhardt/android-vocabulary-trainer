@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_item"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:minHeight="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:id="@+id/txtPosition"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/spreadsheet_row_selector"
+            android:textSize="@dimen/text_medium"
+            android:textStyle="bold"
+            android:layout_weight="0"/>
+
+        <TextView
+            android:id="@+id/txtSource"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="4dp"
+            android:layout_marginLeft="1dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="@dimen/text_medium"
+            android:background="@drawable/spreadsheet_cell_selector"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/txtTarget"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="4dp"
+            android:layout_marginLeft="1dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="@dimen/text_medium"
+            android:background="@drawable/spreadsheet_cell_selector"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="activity_padding_left">80dp</dimen>
+    <dimen name="activity_padding_right">80dp</dimen>
+    <dimen name="activity_padding_top">50dp</dimen>
+    <dimen name="activity_padding_bottom">0dp</dimen>
+    <dimen name="activity_padding_bottom_2">50dp</dimen>
+
+</resources>

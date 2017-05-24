@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="400dp"
+    android:layout_height="80dp"
+    android:minHeight="80dp">
+
+    <TextView
+        android:id="@+id/txtQuit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_large"
+        android:background="@color/color_1"
+        android:layout_marginRight="1dp"
+        android:text="@string/dialog_game_quit"/>
+
+    <TextView
+        android:id="@+id/txtContinue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_large"
+        android:background="@color/color_1"
+        android:text="@string/dialog_game_continue"/>
+
+</LinearLayout>

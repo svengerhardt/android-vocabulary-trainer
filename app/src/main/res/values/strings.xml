@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vocabulary Trainer</string>
+
+    <string name="action_title_setting">Settings</string>
+    <string name="action_title_Help">Help CSV Import</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_navigation_primary">Vocabulary Lists</string>
+    <string name="menu_navigation_starred">Starred</string>
+    <string name="menu_navigation_settings">Settings</string>
+    <string name="menu_navigation_help">Help CSV Import</string>
+
+    <string name="menu_edit">Edit</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_rename">Rename</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_swap">Swap</string>
+
+    <string name="txt_star">Star</string>
+    <string name="txt_unstar">Unstar</string>
+    <string name="txt_unnamed_deck">Unnamed</string>
+    <string name="txt_showAnswer">\?</string>
+
+    <string name="txt_empty_category_title">No vocabulary list available</string>
+    <string name="txt_empty_category_summary">Tap the plus icon in the action bar to add a new vocabulary list.</string>
+
+    <string name="txt_empty_starred_title">You have no starred vocabulary lists</string>
+    <string name="txt_empty_starred_summary">Tap the star icon in the options to add a vocabulary list.</string>
+
+    <string name="txt_spreadsheet_enter_text">Enter text</string>
+
+    <string name="txt_loading_error_open_file">Cannot open file! Please check if storage permission is granted and try again.</string>
+    <string name="txt_loading_error_button">OK</string>
+
+    <string name="dialog_general_positive">OK</string>
+    <string name="dialog_general_negative">Cancel</string>
+
+    <string name="dialog_remove_deck_title">Remove vocabulary list</string>
+    <string name="dialog_remove_deck_content"><![CDATA[<b>%s</b>]]></string>
+    <string name="dialog_remove_deck_positive">Delete</string>
+    <string name="dialog_remove_deck_negative">Cancel</string>
+
+    <string name="dialog_rename_deck_hint">Enter name</string>
+    <string name="dialog_share_deck_title">Share vocabulary list</string>
+
+    <string name="dialog_game_quit">QUIT</string>
+    <string name="dialog_game_continue">CONTINUE</string>
+    <string name="dialog_game_repeat">REPEAT</string>
+
+    <string name="dialog_training_finish_title">Training</string>
+    <string name="dialog_training_finish_content">Training completed!</string>
+    <string name="dialog_training_finish_positive">Repeat</string>
+    <string name="dialog_training_finish_negative">Finish</string>
+
+    <string name="game_type_1">Training</string>
+    <string name="game_type_2">Classic</string>
+    <string name="game_type_3">Connect</string>
+    <string name="game_type_4">Match</string>
+
+    <string name="pref_category_general">General</string>
+    <string name="pref_category_contact">Contact</string>
+    <string name="pref_category_info">Info</string>
+
+    <string name="pref_sound_title">Sound</string>
+
+    <string name="pref_max_flashcards_title">Number of cards</string>
+    <string name="pref_max_flashcards_3">Three pairs</string>
+    <string name="pref_max_flashcards_5">Five pairs</string>
+    <string name="pref_max_flashcards_7">Seven pairs</string>
+
+    <string name="pref_build_version">Build version</string>
+
+</resources>

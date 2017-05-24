@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_max_flashcards_entries">
+        <item>@string/pref_max_flashcards_3</item>
+        <item>@string/pref_max_flashcards_5</item>
+        <item>@string/pref_max_flashcards_7</item>
+    </string-array>
+
+    <string-array name="pref_max_flashcards_values" translatable="false">
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+    </string-array>
+
+</resources>
