@@ -6,7 +6,7 @@ Free vocabulary trainer for android
 
 * Three learning methods: training, connect and match
 * No annoying text input to check if vocable is correct
-* Import and export vocabulary list with CSV (comma-separated values)
+* Import and export your vocabulary list
 * Edit or delete single vocabulary words from your list
 * Share your vocabulary words with your friends
 * Learn in random mode
